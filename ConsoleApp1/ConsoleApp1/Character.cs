@@ -35,6 +35,9 @@ namespace ConsoleApp1
             this._weapon = weapon;
         }
 
+        /// <summary>
+        /// 공격 메소드
+        /// </summary>
         public void Attack()
         {
             Console.WriteLine($"{this._name} 공격");
